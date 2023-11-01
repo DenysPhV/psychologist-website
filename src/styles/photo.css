@@ -1,6 +1,13 @@
 /** @format */
 
 .photo {
+  text-align: center;
+}
+
+.photo img {
   max-width: 100%;
-  border-radius: 50%;
+  height: auto;
+  max-height: 300px; /* Зменшіть це значення за потреби */
+  display: block;
+  margin: 0 auto;
 }
