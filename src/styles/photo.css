@@ -2,12 +2,14 @@
 
 .photo {
   text-align: center;
+
+  padding: 20px 10px;
+
+  border: 1px solid blue;
 }
 
 .photo img {
-  max-width: 100%;
-  height: auto;
-  max-height: 300px; /* Зменшіть це значення за потреби */
+  max-height: 300px;
   display: block;
   margin: 0 auto;
 }

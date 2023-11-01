@@ -1,4 +1,5 @@
 /** @format */
+import "../styles/info.css";
 
 import React from "react";
 

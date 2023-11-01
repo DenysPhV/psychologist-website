@@ -1,0 +1,13 @@
+/** @format */
+
+.info {
+  color: #011f21;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: -1.626px;
+  border: 1px solid tomato;
+}
