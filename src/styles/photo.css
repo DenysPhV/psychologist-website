@@ -2,16 +2,25 @@
 
 .photo-container {
   background-color: rgba(158, 140, 108, 0.1);
+
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .photo {
+  margin-bottom: 20px;
 }
 
 .photo img {
-  max-height: 250px;
+  max-height: 500px;
   margin: 0 auto;
 
   border-radius: 25px;
+}
+
+.owner-photo {
+  text-align: center;
+  font-size: 35px;
 }
 
 @media screen and (min-width: 768px) {
