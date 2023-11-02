@@ -12,14 +12,20 @@ function App() {
 
   // Дані про психолога
   const psychologistInfo = {
-    name: "Ім'я Психолога",
-    specialty: "Спеціальність Психолога",
-    email: "example@example.com",
-    phone: "+1234567890",
+    name: "Катерина Ганжа",
+    specialty: "Практикуючий психолог",
+    email: "ganzhakaterine@gmail.com",
+    phone: "+380980519715",
   };
 
   // Дані для блоку послуг
-  const servicesData = ["Перша послуга", "Друга послуга", "Третя послуга"];
+  const servicesData = [
+    "Когнітивно-поведінкова терапія",
+    "Гештальт-терапія",
+    "Клієнт-центрована терапія",
+    "Сімейна терапія",
+    "Транзактний аналіз",
+  ];
 
   // Функція для зміни фото
   const handlePhotoChange = (newPhoto) => {
@@ -28,10 +34,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Психолог</h1>
-      <Photo photo={photo} onPhotoChange={handlePhotoChange} />
-      <Info psychologistInfo={psychologistInfo} />
-      <Services servicesData={servicesData} />
+      <Photo photo={photo} onPhotoChange={handlePhotoChange} psychologistInfo={psychologistInfo} />
+      <div className="info-service">
+        <Info psychologistInfo={psychologistInfo} />
+        <Services servicesData={servicesData} />
+      </div>
     </div>
   );
 }

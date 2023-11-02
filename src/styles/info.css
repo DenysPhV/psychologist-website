@@ -1,13 +1,16 @@
 /** @format */
 
 .info {
-  color: #011f21;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
-  font-family: Playfair Display;
+
   font-size: 36px;
-  font-style: normal;
-  font-weight: 800;
+
   line-height: 28px;
-  letter-spacing: -1.626px;
+  letter-spacing: 1.32%;
   border: 1px solid tomato;
+}
+
+@media screen and (min-width: 768px) {
 }

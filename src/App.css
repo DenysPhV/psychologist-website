@@ -5,13 +5,30 @@ header {
 
 .App {
   display: flex;
+  flex-direction: column;
 
   text-align: center;
 }
 
 .psychologist-container {
   font-family: Arial, sans-serif;
-  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 768px;
+  }
+
+  .info-service {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .App {
+    width: 1024px;
+    margin: 0 auto;
+  }
 }
