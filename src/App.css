@@ -16,6 +16,10 @@ header {
   padding: 20px;
 }
 
+.info-service {
+  background-color: #f7f9fc;
+}
+
 @media screen and (min-width: 768px) {
   .App {
     width: 768px;
@@ -24,7 +28,9 @@ header {
 
   .info-service {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    padding: 50px 60px;
   }
 }
 

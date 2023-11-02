@@ -3,31 +3,24 @@ import "../styles/info.css";
 
 import React from "react";
 
+import { BsFillEnvelopeHeartFill as IconEmail } from "react-icons/bs";
+import { BsFillTelephoneInboundFill as IconPhone } from "react-icons/bs";
+
 function Info({ psychologistInfo }) {
   return (
-    <div className="info">
+    <div className="info-container">
       <h2>контакти</h2>
       <ul className="info-list">
         <li>
           <div className="info-list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none">
-              <path
-                d="M8.33331 8.33335H1.66665C1.20641 8.33335 0.833313 7.96026 0.833313 7.50002V2.46377C0.852733 2.01775 1.2202 1.66627 1.66665 1.66669H8.33331C8.79355 1.66669 9.16665 2.03978 9.16665 2.50002V7.50002C9.16665 7.96026 8.79355 8.33335 8.33331 8.33335ZM1.66665 3.27835V7.50002H8.33331V3.27835L4.99998 5.50002L1.66665 3.27835ZM1.99998 2.50002L4.99998 4.50002L7.99998 2.50002H1.99998Z"
-                fill="#79819A"
-              />
-            </svg>
+            <IconEmail style={{ color: "blue", fontSize: "16px" }} />
           </div>
           {psychologistInfo.email}
         </li>
 
         <li>
           <div className="info-list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-              <path
-                d="M7.91564 8.33335C4.3608 8.33839 1.66289 5.60814 1.66669 2.0844C1.66669 1.85428 1.85324 1.66669 2.08336 1.66669H3.18309C3.38958 1.66669 3.56499 1.81841 3.59531 2.02266C3.66798 2.51219 3.81051 2.98876 4.01856 3.43781L4.06137 3.53023C4.12091 3.65873 4.08055 3.81141 3.9653 3.89372C3.62473 4.13693 3.49457 4.6265 3.75989 5.0085C4.09284 5.48787 4.51254 5.90748 4.9918 6.24028C5.37378 6.50553 5.86327 6.37539 6.10648 6.03487C6.18884 5.91956 6.34161 5.87919 6.47019 5.93875L6.56218 5.98136C7.01126 6.18939 7.48787 6.33193 7.97745 6.40458C8.18171 6.4349 8.33335 6.6103 8.33335 6.8168V7.91668C8.33335 8.1468 8.14635 8.33335 7.91623 8.33334L7.91564 8.33335Z"
-                fill="#79819A"
-              />
-            </svg>
+            <IconPhone style={{ color: "blue", fontSize: "16px" }} />
           </div>
           {psychologistInfo.phone}
         </li>

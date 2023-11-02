@@ -1,8 +1,8 @@
 /** @format */
 
-.info {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.info-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 
   font-size: 24px;
@@ -11,7 +11,7 @@
   letter-spacing: 1.32%;
 }
 
-.info h2 {
+.info-container h2 {
   margin-bottom: 15px;
   font-weight: 300;
 }
@@ -31,9 +31,13 @@
 
 .info-list-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
 
-  width: 24px;
-  height: 24px;
+  margin-right: 10px;
+
+  width: 35px;
+  height: 35px;
 
   border-radius: 100px;
 
