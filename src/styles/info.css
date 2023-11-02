@@ -5,12 +5,43 @@
   padding-bottom: 20px;
   text-align: center;
 
-  font-size: 36px;
+  font-size: 24px;
 
   line-height: 28px;
   letter-spacing: 1.32%;
-  border: 1px solid tomato;
+}
+
+.info h2 {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-list li {
+  display: flex;
+
+  margin-bottom: 15px;
+}
+
+.info-list-icon {
+  display: flex;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 100px;
+
+  background-color: #e2e6ee;
 }
 
 @media screen and (min-width: 768px) {
+  .info-list {
+    align-items: flex-start;
+  }
 }

@@ -1,0 +1,28 @@
+/** @format */
+
+.services-container {
+  margin-top: 20px;
+
+  color: #79819a;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.34%;
+}
+
+.services-title {
+  color: #2e2e48;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.33%;
+}
+
+.services-list li {
+  margin-top: 10px;
+}

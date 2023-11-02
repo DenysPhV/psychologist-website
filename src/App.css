@@ -24,6 +24,7 @@ header {
 
   .info-service {
     display: flex;
+    justify-content: space-around;
   }
 }
 
