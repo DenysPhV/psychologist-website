@@ -19,6 +19,7 @@ header {
 @media screen and (min-width: 768px) {
   .App {
     width: 768px;
+    margin: 0 auto;
   }
 
   .info-service {
@@ -29,6 +30,5 @@ header {
 @media screen and (min-width: 1024px) {
   .App {
     width: 1024px;
-    margin: 0 auto;
   }
 }
