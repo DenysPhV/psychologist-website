@@ -9,18 +9,19 @@ import { BsFillTelephoneInboundFill as IconPhone } from "react-icons/bs";
 function Info({ psychologistInfo }) {
   return (
     <div className="info-container">
-      <h2>контакти</h2>
+      <h2>контакти для консультації </h2>
+      <p>online/offline</p>
       <ul className="info-list">
         <li>
           <div className="info-list-icon">
-            <IconEmail style={{ color: "blue", fontSize: "16px" }} />
+            <IconEmail style={{ color: "rgb(238, 150, 75)", fontSize: "16px" }} />
           </div>
           {psychologistInfo.email}
         </li>
 
         <li>
           <div className="info-list-icon">
-            <IconPhone style={{ color: "blue", fontSize: "16px" }} />
+            <IconPhone style={{ color: "rgb(238, 150, 75)", fontSize: "16px" }} />
           </div>
           {psychologistInfo.phone}
         </li>

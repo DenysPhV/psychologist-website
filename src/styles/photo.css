@@ -1,7 +1,8 @@
 /** @format */
 
 .photo-container {
-  background-color: rgba(158, 140, 108, 0.1);
+  background-color: #f4d35e;
+  color: #5f0f40;
 
   padding-top: 50px;
   padding-bottom: 50px;
@@ -16,6 +17,8 @@
   margin: 0 auto;
 
   border-radius: 25px;
+
+  box-shadow: 5px 5px 5px #e36414;
 }
 
 .owner-photo {

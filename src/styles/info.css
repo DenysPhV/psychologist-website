@@ -9,10 +9,14 @@
 
   line-height: 28px;
   letter-spacing: 1.32%;
+
+  color: #083d77;
 }
 
-.info-container h2 {
-  margin-bottom: 15px;
+.info-container h2,
+.info-container p {
+  font-size: 22px;
+  margin-bottom: 10px;
   font-weight: 300;
 }
 
@@ -41,10 +45,14 @@
 
   border-radius: 100px;
 
-  background-color: #e2e6ee;
+  background-color: #ebebd3;
 }
 
 @media screen and (min-width: 768px) {
+  .info-container {
+    text-align: left;
+  }
+
   .info-list {
     align-items: flex-start;
   }

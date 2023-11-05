@@ -2,7 +2,8 @@
 
 .services-container {
   margin-top: 20px;
-  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   color: #79819a;
   font-size: 28px;
@@ -13,7 +14,7 @@
 }
 
 .services-title {
-  color: #2e2e48;
+  color: #083d77;
   text-align: center;
   font-size: 45px;
   font-style: normal;
@@ -23,16 +24,21 @@
 }
 
 .services-list li {
+  margin: 0 auto;
   margin-top: 20px;
 
-  padding: 15px 20px;
+  padding: 10px 5px;
 
-  border: 2px solid #2e2e48;
+  border: 1px solid #5f0f40;
   border-radius: 10px;
+
+  color: #0f4c5c;
+  background-color: #fb8b24;
 }
 
 @media screen and (min-width: 768px) {
   .services-container {
+    margin-left: 15px;
     text-align: left;
   }
 }

@@ -13,7 +13,7 @@ function Services({ servicesData }) {
       <ul className="services-list">
         {servicesData.map((service, index) => (
           <li key={index}>
-            <IconPoint style={{ color: "gray", fontSize: "20px", marginRight: "5px" }} />
+            <IconPoint style={{ color: "#9a031e", fontSize: "20px", marginRight: "5px" }} />
             {service}
           </li>
         ))}
