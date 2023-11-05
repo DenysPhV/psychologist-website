@@ -9,7 +9,7 @@ import { BsFillPersonCheckFill as IconPoint } from "react-icons/bs";
 function Services({ servicesData }) {
   return (
     <div className="services-container">
-      <h2 className="services-title">Послуги психолога</h2>
+      <h2 className="services-title">НАПРЯМКИ РОБОТИ</h2>
       <ul className="services-list">
         {servicesData.map((service, index) => (
           <li key={index}>

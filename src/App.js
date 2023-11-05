@@ -14,7 +14,7 @@ function App() {
   const psychologistInfo = {
     name: "Катерина Ганжа",
     specialty: "Практикуючий психолог",
-    advice: "Індивідуальні, групові та сімейні консультації",
+    advice: "Індивідуальні, групові та сімейні консультації online/offline",
     email: "ganzhakaterine@gmail.com",
     phone: "+380980519715",
   };
