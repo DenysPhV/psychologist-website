@@ -13,6 +13,7 @@ const Photo = ({ psychologistInfo }) => {
       <div className="owner-photo">
         <h1>{psychologistInfo.name}</h1>
         <p>{psychologistInfo.specialty}</p>
+        <p className="advice">{psychologistInfo.advice}</p>
       </div>
     </div>
   );
